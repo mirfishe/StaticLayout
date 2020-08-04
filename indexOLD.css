@@ -1,0 +1,250 @@
+body {
+    font: normal 14px/1.8 "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434146;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+p {
+    line-height: 1.24em;
+    margin: 0 0 1.8em;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    line-height: 30px;
+    font-weight: 500;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0 auto 30px;
+    max-width: 500px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #FE9000;
+    cursor: pointer;
+}
+
+header {
+  height: 83px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 205px auto 104px;
+  grid-column-gap: 40px;
+  padding: 19px 20px;
+  z-index: 900;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.logo-container {
+    width: 201px;
+    height: auto;
+    top: 19px;
+    left: 20px;
+    display: block;
+    padding: 0;
+}
+
+.logo-img {
+    width: 100%;
+    filter: blur(0);
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.download-header {
+    position: absolute;
+    top: 29px;
+    right: 20px;
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    width: 104px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
+    color: #ffffff !important;
+}
+
+.icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.menu-button {
+    position: fixed;
+    top: 29px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 24px;
+    width: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: manipulation;
+    box-sizing: content-box;
+}
+
+.homepage-content {
+    text-align: center;
+    position: relative;
+}
+
+section {
+    padding: 60px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.watch-party-made-easy {
+    background-color: #531F62;
+    background-image: url(assets/pages/home/gradient-violet-bg.jpg);
+    background-size: cover;
+}
+
+.watch-party-made-easy img {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 83px - 30px - 260px - 60px);
+}
+
+.btn-container {
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 24px;
+    justify-content: center;
+}
+
+.button {
+    min-width: 215px;
+    width: 100%;
+
+    height: 44px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 44px;
+    padding: 0 16px;
+    font-weight: bold;
+    letter-spacing: 1.44px;
+
+    border-radius: 3px;
+    background: #FE9000;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+
+
+.publications {
+    background-color: #f4fafa;
+    text-align: center;
+}
+
+.publications-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 3px;
+    max-width: 880px;
+    margin: 0 auto 60px;
+}
+
+.quote-block {
+    max-width: 734px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-block .quote-auth {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0;
+    color: #414854;
+    text-align: right;
+    display: block;
+}
+
+.quote-block q {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.what-is-kast {
+    background-image: url(assets/pages/home/green-bg.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
