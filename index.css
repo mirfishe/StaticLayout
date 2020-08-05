@@ -47,7 +47,7 @@ section {
     padding: 60px 30px;
 }
 
-.watch-party-made-easy {
+.watch-party {
     background-color: #531F62;
     background-image: url(assets/pages/home/gradient-violet-bg.jpg);
     background-size: cover;
@@ -68,7 +68,7 @@ section {
     margin: 0 auto 60px;
 }
 
-.watch-party-made-easy img {
+.watch-party img {
     position: relative;
     width: auto;
     max-width: 100%;
@@ -138,26 +138,18 @@ header {
     border-style: none;
 }
 
-.logo-container {
+.logo{
     width: 201px;
     height: auto;
     top: 19px;
     left: 20px;
     padding: 0;
-
-    /* display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap; */
 }
 
-.download-header {
+.header-open {
     position: absolute;
     top: 29px;
-    right: 20px;
+    right: 60px;
     display: inline-block;
     background: transparent;
     border-radius: 3px;
@@ -168,7 +160,32 @@ header {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1.5px;
-    /* box-shadow: inset 0px 0px 0px 1px #fff;
-    border: 1px solid transparent; */
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
     color: #ffffff;
 }
+
+.menuNav {
+    position: absolute;
+    top: 29px;
+    right: 200px;
+}
+
+.menuItems {
+    color: #ffffff;
+    height: 27px;
+    line-height: 27px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 20px auto;
+    
+}
+
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
